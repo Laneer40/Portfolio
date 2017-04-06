@@ -1,0 +1,111 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lane Bandli's Portfolio</title>
+    <meta name="description" content="A budding Junior Developer's Portfolio'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <!--Icon-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/Content/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Content/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Content/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Content/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/Content/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/Content/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/Content/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/Content/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/Content/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/Content/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/Content/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/Content/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/Content/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/Content/favicomatic/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/Content/favicomatic/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/Content/favicomatic/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/Content/favicomatic/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/Content/favicomatic/mstile-310x310.png" />
+    <!--Referance-->    
+    <link rel="stylesheet" href="~/Content/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/css/animate.min.css" />
+    <link rel="stylesheet" href="~/Content/css/ionicons.min.css" />
+    <link rel="stylesheet" href="~/Content/css/Custom.css" />
+    <link rel="stylesheet" href="~/Content/css/flickity-docs.css" />
+    <link href="~/Content/SyntaxHighlighter/shCore.css" rel="stylesheet" />
+    <link href="~/Content/SyntaxHighlighter/shCoreMidnight.css" rel="stylesheet" />
+    <link href="~/Content/SyntaxHighlighter/shThemeMidnight.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/css/StyleSheet.css" />
+    @RenderSection("css", required: false)
+</head> 
+    <body>
+        <!--Navigation Start-->
+        <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> Lane's Portfolio</a>
+                </div>
+                <div class="navbar-collapse collapse" id="bs-navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="page-scroll" href="#one">Intro</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#two">Skill Set</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#three">Projects</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#four">Languages and Summary</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#last">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" data-toggle="modal" title="Lane Bandli's Portfolio" href="#aboutModal">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        @RenderBody()
+        <div id="PlcHdlrModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h2 class="text-center">Sorry Haven't Finished This Project</h2>
+                        <p class="text-center">You clicked the button, but it doesn't actually go anywhere because this is only a placeholder.</p>
+                        <p class="text-center"></p>
+                        <br />
+                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="~/Scripts/jquery.min.js"></script>
+        <script src="~/Scripts/flickity-docs.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/jquery.easing.min.js"></script>
+        <script src="~/Scripts/wow.js"></script>
+        <script src="~/Scripts/scripts.js"></script>
+        <script src="~/Scripts/NumberExercises.js"></script>
+        <script src="~/Scripts/SyntaxHighlighter/shCore.js"></script>
+        <script src="~/Scripts/SyntaxHighlighter/shBrushJScript.js"></script>
+        <script type="text/javascript">
+        SyntaxHighlighter.all()
+        </script>
+        @RenderSection("scripts", required: false)
+    </body>
+
+</html>

@@ -1,0 +1,600 @@
+﻿@using MVC_Portfolio.Helper    
+<!--Header Start-->
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1 class="cursive">Lane Bandli's Portfolio</h1>
+                <h4 class="White">A Junior Developer's portfolio</h4>
+                <hr>
+                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">See More!</a>
+            </div>
+        </div>
+        <div class="element-with-video-bg jquery-background-video-wrapper">
+            <video data-bgvideo="true" autoplay="" loop="" class="fillWidth fadeIn wow collapse in jquery-background-video" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
+                <source data-bgvideo="true" src="~/Content/assets/Busy_City_Street.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
+    </header>
+    <!--Header End-->
+    <!--Section Intro Start-->
+    <section class="bg-primary" id="one">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+                    <h2 class="margin-top-0 text-primary">Built On The Bootstrap Grid</h2>
+                    <br>
+                    <p class="text-faded">
+                        After <a href="http://www.coderfoundry.com/">Coder Foundry</a> Lane is looking for work in the web development field.
+                    </p>
+                    <a href="~/Content/resume.pdf" target="_blank" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Intro End-->
+    <!--Section Skillset Start-->
+    <section id="two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="margin-top-0 text-primary">Flexible Skill Set</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-social-css3-outline wow fadeIn" data-wow-delay=".3s"></i>
+                        <h3>Front End Development</h3>
+                        <p class="text-muted">HTML5, JavaScript, Jquery, CSS, and Bootstrap.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-wrench wow fadeInUp" data-wow-delay=".2s"></i>
+                        <h3>Back End Development</h3>
+                        <p class="text-muted">C# and SQL</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-iphone wow fadeIn" data-wow-delay=".3s"></i>
+                        <h3>Mobile Development</h3>
+                        <p class="text-muted">Xamarin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Skillset End-->
+    <!--Section Portfolio Start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="margin-top-0 text-primary">Portfolio</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <section id="three" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="carousel" style="background:#000"
+                     data-flickity='{ "imagesLoaded": true, "percentPosition": false}'>
+                    <a href="#" data-toggle="modal" data-target="#js_exercises" role="button"> <img src="~/Content/assets/js.jpg" alt="Javascript" id="ColumnControl" /></a>
+                    <a href="https://lbandli-shoppingcart.azurewebsites.net" data-target="" role="button" target="_blank"><img src="~/Content/assets/Shopping_cart_icon.svg.png" alt="Shopping Cart" /></a>
+                    <a href="https://lbandli-blog.azurewebsites.net" data-target="" role="button"><img src="~/Content/assets/blog.jpg" alt="Blog" /></a>
+                    <a href="https://lbandli-bugtracker.azurewebsites.net" data-target="" role="button"><img src="~/Content/assets/bug.jpg" alt="Bug Tracker" /></a>
+                    <a href="#" data-toggle="modal" data-target="#PlcHdlrModal" role="button"><img src="~/Content/assets/Budget.jpg" alt="Budgeter" /></a>
+                    <a href="#" data-toggle="modal" data-target="#PlcHdlrModal" role="button"><img src="~/Content/assets/Car.jpeg" alt="Car Finder" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Portfolio End-->
+    <!--Languages and Summary-->
+    <section class="container-fluid" id="four">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <h2 class="text-center text-primary">Languages and Summary</h2>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Bootstrap</h3>
+                    <div class="media-body media-middle">
+                        <p>Designed to help me and you be more efficent and create a beautiful front end to house our powerhouse backend.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-ios-bolt-outline"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <h3>HTML and CSS</h3>
+                    <div class="media-left">
+                        <a href="#alertModal" data-toggle="modal" data-target="#alertModal"><i class="icon-lg ion-social-html5"></i></a>
+                    </div>
+                    <div class="media-body media-middle">
+                        <p>To be able to customize any website to exactly what you want.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>JQuery and Javascript</h3>
+                    <div class="media-body media-middle">
+                        <p>To be able to make that extra pop in our website wether it be animating or anything else to give us that extra edge.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-social-javascript"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <h3>.Net Stack</h3>
+                    <div class="media-left">
+                        <i class="icon-lg ion-wrench"></i>
+                    </div>
+                    <div class="media-body media-middle">
+                        <p>C#, MVC, SQL, Linq, and Rest API are all used in my portfolio which allows me a aresenal of tools to build a strong backend.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Xamarin</h3>
+                    <div class="media-body media-middle">
+                        <p>A newer age technology for cross platform compatability allows me to be able to build a mobile app to help you reach even more customers!</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-android-phone-portrait"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Languages and Summary-->
+    <!--Built With Section-->
+    <section id="last">
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2 class="text-primary">Contact me!</h2>
+                    <a href="#" data-toggle="modal" data-target="#Contact_Modal" role="button" class="btn btn-default btn-lg wow flipInX">E-Mail Me</a>
+                </div>
+                <br>
+                <hr />
+                <br>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="row">
+                            <h6 class="wide-space text-center">Built with</h6>
+                            <div class="col-sm-3 col-xs-6 text-center">
+                                <i class="icon-lg ion-social-html5-outline" title="html 5"></i>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 text-center">
+                                <i class="icon-lg ion-social-chrome-outline" title="chrome"></i>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 text-center">
+                                <i class="icon-lg ion-social-javascript-outline" title="javascript"></i>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 text-center">
+                                <i class="icon-lg ion-social-css3-outline" title="css 3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <!--Built With Section End-->
+    <!--Contact Form-->
+    <section id="last">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
+                    <hr class="primary">
+                    <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
+                </div>
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control input-custom2" placeholder="Please enter your phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" >
+                                    <button class="btn btn-success btn-send btn-center center-block" href="#" data-toggle="modal" data-target="#PlcHdlrModal">Send</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12" >
+                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+            </div>
+        </div>
+    </section>
+    <!--Contact Form End
+    <!--Modal's Start
+    <!--js_exercises modal start-->
+    <div id="js_exercises" class="modal fade " tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="row">
+                        <div class="col-lg-12">Javascript Exercise</div>
+                        <div class="row">
+                            <nav class="nav nav-inline row navModal">
+                                <a class="nav-link col-md-3 " href="#JsEx-carousel" data-slide-to="0">Number Set</a>
+                                <a class="nav-link col-md-3 " href="#JsEx-carousel" data-slide-to="1">Factorials</a>
+                                <a class="nav-link col-md-3 " href="#JsEx-carousel" data-slide-to="2">Fizz Buzz</a>
+                                <a class="nav-link col-md-3 " href="#JsEx-carousel" data-slide-to="3">Palindrome</a>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body" id="Onloadfunction123">
+                    <div class="carousel slide" id="JsEx-carousel">
+                        <div class="carousel-inner">
+                            <!--5 Numbers-->
+                            <div class="item active">
+                                <div class="container">
+                                    <div class="row">
+                                        <h2>Number Set</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6" id="Column1SyntaxEqualHeight">
+                                            <div class="row">
+                                                <h4>Input</h4>
+                                                <input class="form-control input-custom" id="NumSet_Input1" type="number" />
+                                                <input class="form-control input-custom" id="NumSet_Input2" type="number" />
+                                                <input class="form-control input-custom" id="NumSet_Input3" type="number" />
+                                                <input class="form-control input-custom" id="NumSet_Input4" type="number" />
+                                                <input class="form-control input-custom" id="NumSet_Input5" type="number" />
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_LeastBtn">Least</button></div>
+                                                <div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_GreatestBtn">Greatest</button></div>
+                                                <div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_SumBtn">Sum</button></div>
+                                                <div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_ProductBtn">Product</button></div>
+                                                <div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_AverageBtn">Mean</button></div>
+                                                <div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_MedianBtn">Median</button></div>
+                                            </div>
+                                            <div class="row">
+                                                <h4>Output</h4>
+                                                <input class="form-control" id="NumSet_Output1" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6" id="Column2SyntaxEqualHeight">
+                                            <div class="row"><h4>Code</h4></div>
+                                            <div class="row" id="CustomSyntaxNumberExercise">
+                                                <pre class="brush: js PreHeight">
+$(function () {
+    $('.input-custom').blur(function () {
+        // Remove invalid characters
+        var sanitized = $(this).val().replace(/[^-0-9]/g, '');
+        // Remove non-leading minus signs
+        sanitized = sanitized.replace(/(.)-+/g, '$1');
+        // Update value
+        $(this).val(sanitized);
+    });
+    //Start of Numbers Exercise
+    $(function () {
+        $("#JsEx_LeastBtn").click(function () {
+            var NumSet_Input1 = $('#NumSet_Input1').val();
+            var NumSet_Input2 = $('#NumSet_Input2').val();
+            var NumSet_Input3 = $('#NumSet_Input3').val();
+            var NumSet_Input4 = $('#NumSet_Input4').val();
+            var NumSet_Input5 = $('#NumSet_Input5').val();
+            var NumSet_Least_Answer = function Least() {
+                return Math.min(+NumSet_Input1, +NumSet_Input2, +NumSet_Input3, +NumSet_Input4, +NumSet_Input5);
+            }
+            $('#NumSet_Output1').val(NumSet_Least_Answer);
+        })
+        $("#JsEx_GreatestBtn").click(function () {
+            var NumSet_Input1 = $('#NumSet_Input1').val();
+            var NumSet_Input2 = $('#NumSet_Input2').val();
+            var NumSet_Input3 = $('#NumSet_Input3').val();
+            var NumSet_Input4 = $('#NumSet_Input4').val();
+            var NumSet_Input5 = $('#NumSet_Input5').val();
+            var NumSet_Max_Answer = function max() {
+                return Math.max(+NumSet_Input1, +NumSet_Input2, +NumSet_Input3, +NumSet_Input4, +NumSet_Input5);
+            }
+            $('#NumSet_Output1').val(NumSet_Max_Answer);
+        })
+        $("#JsEx_SumBtn").click(function () {
+            var NumSet_Input1 = $('#NumSet_Input1').val();
+            var NumSet_Input2 = $('#NumSet_Input2').val();
+            var NumSet_Input3 = $('#NumSet_Input3').val();
+            var NumSet_Input4 = $('#NumSet_Input4').val();
+            var NumSet_Input5 = $('#NumSet_Input5').val();
+            var NumSet_Sum_Answer = function () {
+                return (+NumSet_Input1 + +NumSet_Input2 + +NumSet_Input3 + +NumSet_Input4 + +NumSet_Input5);
+            }
+            $('#NumSet_Output1').val(NumSet_Sum_Answer);
+        })
+        $("#JsEx_ProductBtn").click(function () {
+            var NumSet_Input1 = $('#NumSet_Input1').val();
+            var NumSet_Input2 = $('#NumSet_Input2').val();
+            var NumSet_Input3 = $('#NumSet_Input3').val();
+            var NumSet_Input4 = $('#NumSet_Input4').val();
+            var NumSet_Input5 = $('#NumSet_Input5').val();
+            var NumSet_Product_Answer = function () {
+                return (+NumSet_Input1 * +NumSet_Input2 * +NumSet_Input3 * +NumSet_Input4 * +NumSet_Input5);
+            }
+            $('#NumSet_Output1').val(NumSet_Product_Answer)
+        })
+        $("#JsEx_AverageBtn").click(function () {
+            var NumSet_Input1 = $('#NumSet_Input1').val();
+            var NumSet_Input2 = $('#NumSet_Input2').val();
+            var NumSet_Input3 = $('#NumSet_Input3').val();
+            var NumSet_Input4 = $('#NumSet_Input4').val();
+            var NumSet_Input5 = $('#NumSet_Input5').val();
+            var NumSet_Average_Answer = function () {
+                var NumSet_Multiply = (+NumSet_Input1 + +NumSet_Input2 + +NumSet_Input3 + +NumSet_Input4 + +NumSet_Input5);
+                return (NumSet_Multiply / 5);
+            }
+            $('#NumSet_Output1').val(NumSet_Average_Answer);
+        })
+        $("#JsEx_MedianBtn").click(function () {
+            var NumSet_Input1 = $('#NumSet_Input1').val();
+            var NumSet_Input2 = $('#NumSet_Input2').val();
+            var NumSet_Input3 = $('#NumSet_Input3').val();
+            var NumSet_Input4 = $('#NumSet_Input4').val();
+            var NumSet_Input5 = $('#NumSet_Input5').val();
+            var NumSet_Input_Array = [+NumSet_Input1, +NumSet_Input2, +NumSet_Input3, +NumSet_Input4, +NumSet_Input5];
+            function median(values) {
+                values.sort(function (a, b) { return a - b; });
+                var half = Math.floor(values.length / 2);
+                if (values.length % 2)
+                    return values[half];
+                else
+                    return (values[half - 1] + values[half]) / 2.0;
+            }
+            var NumSet_Median_Answer = median(NumSet_Input_Array);
+            $('#NumSet_Output1').val(NumSet_Median_Answer);
+        })
+    })
+})
+        </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Factorial-->
+                            <div class="item">
+
+                                <div class="container">
+                                    <div class="row">
+                                        <h2>Factorials</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6" id="">
+                                            <div class="row">Input</div>
+                                            <div class="row"><input class="form-control input-custom2" id="Factorial_Input" type="number" min="2" max="99" /></div>
+                                            <div class="row"><div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_FactorialBtn">Factorial</button></div></div>
+                                            <div class="row">Output</div>
+                                            <div class="row"><input class="form-control" id="Factorial_Output" /></div>
+                                            <div class="row"><p class="Form-P">The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. </p></div>
+                                        </div>
+                                        <div class="col-lg-6" id="">
+                                            <pre class="brush: js PreHeight">
+$(function () {
+    $('.input-custom').blur(function () {
+        // Remove invalid characters
+        var sanitized = $(this).val().replace(/[^-0-9]/g, '');
+        // Remove non-leading minus signs
+        sanitized = sanitized.replace(/(.)-+/g, '$1');
+        // Update value
+        $(this).val(sanitized);
+        //Start of Factorial Exercise
+        $(function () {
+        $('#JsEx_FactorialBtn').click(function () {
+            var Factorial_Input = $('#Factorial_Input').val();
+            $(function () {
+                //   var i = (+Factorial_Input)
+                var result = 1
+                for (i = Factorial_Input ; i >= 1; i--) {
+                    result *= i
+                }
+                
+                $('#Factorial_Output').val(result);
+        //End of Factorial Exercise
+            })
+        })
+    })
+})
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Fizz Buzz-->
+                            <div class="item">
+                                <div class="container">
+                                    <div class="row">
+                                        <h2>Fizz Buzz</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6" id="">
+                                            <div class="row">Input</div>
+                                            <div class="row"><input class="form-control input-custom2" id="Fizz_Input1" type="number" min="2" max="99" /></div>
+                                            <div class="row"><input class="form-control input-custom2" id="Fizz_Input2" type="number" min="2" max="99" /></div>
+                                            <div class="row"><div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_FizzBtn">Factorial</button></div></div>
+                                            <div class="row">Output</div>
+                                            <div class="row"><p class="Form-P" id="Fizz_Output"> </p></div>
+                                            <div class="row"><p class="Form-P">The program then iterates through all numbers from 1 to 100, printing numbers in ascending order to the screen. For each number that is a multiple of the first number input by the user, print "Fizz" instead of the number. For each number that is a multiple of the second number input by the user, print "Buzz" instead of the number. For numbers that are multiples of both numbers, print "FizzBuzz" instead of the number.</p></div>
+                                        </div>
+                                        <div class="col-lg-6" id="">
+                                            <pre class="brush: js PreHeight">
+    $(function () {
+        $('#JsEx_FizzBtn').click(function(){
+            var Fizz_input1 = $('#Fizz_Input1').val();
+            var Fizz_input2 = $('#Fizz_Input2').val();
+            //Count 1-100
+            for (c = 1; c <= 100; c++) {
+                //Divide both and make sure both equals zero
+                if (c % Fizz_input1 === 0 && c % Fizz_input2 === 0) {
+                    //then display "fizzbuzz"
+                    $("#Fizz_Output").append(" FIZZBUZZ ");
+                    //else if remainder of counter divided by m1 equals 0
+                } else if (c % Fizz_input1 === 0) {
+                    //then display "fizz"
+                    $("#Fizz_Output").append(" Fizz ");
+                    //else if remainder of counter divided by m2 equals 0
+                } else if (c % Fizz_input2 === 0) {
+                    //then display "buzz"  
+                    $("#Fizz_Output").append(" Buzz ");
+                    //else display the counter number value 'c'
+                } else {
+                    $("#Fizz_Output").append(" " + c + " ");
+                }
+            }
+        })
+    })
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Palindrome-->
+                            <div class="item">
+                                <div class="container">
+                                    <div class="row">
+                                        <h2>Palindrome</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6" id="">
+                                            <div class="row">Input</div>
+                                            <div class="row"><input class="form-control" id="Palindrome_Input" type="text" /></div>
+                                            <div class="row"><div class="col-lg-2 col-btn-custom"><button class="btn-block btn-custom" id="JsEx_Palindrome">Find out!</button></div></div>
+                                            <div class="row">Output</div>
+                                            <div class="row"><p class="Form-P" id="Palindrome_Output"> </p></div>
+                                            <div class="row"><p class="Form-P">A word, phrase, or sequence that reads the same backward as forward, For example: madam or nurses run.</p></div>
+                                        </div>
+                                        <div class="col-lg-6" id="">
+                                            <pre class="brush: js PreHeight">
+$(function () {
+        $('#JsEx_Palindrome').click(function () {
+            var Palindrome_Input = $('#Palindrome_Input').val();
+            $(function palindrome() {
+                /* remove special characters, spaces and make lowercase*/
+                var removeChar = Palindrome_Input.replace(/[^A-Z0-9]/ig, "").toLowerCase();
+                /* reverse removeChar for comparison*/
+                var checkPalindrome = removeChar.split('').reverse().join('');
+                /* Check to see if str is a Palindrome*/
+                if (removeChar === checkPalindrome) {
+                    $('#Palindrome_Output').text('It is a Palindrome!');
+                } else {
+                    $('#Palindrome_Output').text('It is not a Palindrome!');
+                }
+            }
+            
+        )})
+    })
+})
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br />
+                    <button class="btn btn-primary btn-lg center-block button_center" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--js_excercises modal end-->
+    <!--Standard Modal for usage
+        <div id="" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" id="galleryImage" class="img-responsive" />
+                    <p>
+                        <br />
+                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div id="Contact_Modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="text-center">Contact me here!</h2>
+                    <p class="text-center">ltcbandli98@gmail.com
+                        <br />
+                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="text-center">About Lane</h2>
+                    <h5 class="text-center">
+                        A young budding junior developer who is ready for a promising carrer with your company.
+                    </h5>
+                    <p class="text-justify">
+                        Lane Bandli a recent graduate of Coder Foundry is now looking for work. Used to being one of the youngest on the team even at Best Buy he ended up managing periodically people who were twice his age. While working at Best Buy Lane found coder foundry and came to complete his dreams of working in the web design and software engineering field.
+                    </p>
+                    <br />
+                    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal's End-->

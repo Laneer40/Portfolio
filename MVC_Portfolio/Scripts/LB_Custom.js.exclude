@@ -1,0 +1,11 @@
+﻿//$(function () {
+   // $(window).on('shown.bs.modal', function () {
+       // alert('heelo')
+        //$("#Column2SyntaxEqualHeight").css({ 'height': ($("#Column1SyntaxEqualHeight").height() + 'px') });
+//
+      //  $("#Column2SyntaxEqualHeight").height($("#Column1SyntaxEqualHeight").height());
+//
+    //    var highestCol = Math.max($('#Column2SyntaxEqualHeight').height(), $('#Column1SyntaxEqualHeight').height());
+    //    $('#Column2SyntaxEqualHeight').height(highestCol);
+//    })
+//
