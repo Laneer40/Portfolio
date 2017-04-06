@@ -335,5 +335,5 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-ProjectName/Web.Release.config
+Portfolio/Web.Release.config
 *.csproj
