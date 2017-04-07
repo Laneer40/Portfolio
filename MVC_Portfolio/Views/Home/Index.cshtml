@@ -1,4 +1,5 @@
-﻿  
+﻿  @model Blog2.Models.EmailModels
+
 <!--Header Start-->
     <header id="first">
         <div class="header-content">
@@ -196,7 +197,7 @@
                     <hr class="primary">
                     <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
                 </div>
-                    <form id="contact-form" method="post" action="contact.php" role="form">
+                    @*<form id="contact-form" method="post" action="contact.php" role="form">
 
                         <div class="messages"></div>
 
@@ -253,7 +254,42 @@
                             </div>
                         </div>
 
-                    </form>
+                    </form>*@
+                <div class="row">
+                    @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+                    {     @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+                        <div class="form-group cent row">
+                            <div class="col-md-10 cent">
+                                @Html.TextBoxFor(m => m.FromName, new { @class = "form-control floatr  ", placeholder = "Name" })
+                                @Html.ValidationMessageFor(m => m.FromName)
+                            </div>
+                        </div>
+                        <div class="form-group cent row">
+                            <div class="col-md-10 cent">
+                                @Html.TextBoxFor(m => m.FromEmail, new { @class = "form-control floatr  ", placeholder = "example@email.com" })
+                                @Html.ValidationMessageFor(m => m.FromEmail)
+                            </div>
+                        </div>
+                        <div class="form-group cent row" >
+                            <div class="col-md-10 cent">
+                                @Html.TextBoxFor(m => m.Subject, new { @class = "form-control floatr  ", placeholder = "Subject" })
+                                @Html.ValidationMessageFor(m => m.Subject)
+                            </div>
+                        </div>
+                        <div class="form-group cent row">
+                            <div class="col-md-10 cent">
+                                @Html.TextBoxFor(m => m.Body, new { @class = "form-control floatr  ", placeholder = "Body" })
+                                @Html.ValidationMessageFor(m => m.Body)
+                            </div>
+                        </div>
+                        <div class="form-group cent row text-center">
+                                <input type="submit" class="btn btn-primary btn-lg" value="Send" />
+                        </div>
+                    }
+                </div>
+
             </div>
         </div>
     </section>

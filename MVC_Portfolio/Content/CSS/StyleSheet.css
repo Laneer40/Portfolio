@@ -107,4 +107,17 @@ button_center{
     padding-left: 16px;
     padding-right: 16px;
 }
-            
+.floatr{
+    float:right;
+}
+.floatl{
+    float:left;
+}
+form-group{
+    float:none !important;
+    margin: 0 auto !important;
+}
+.cent{
+    float:none !important;
+    margin: 0 auto !important;
+}
