@@ -38,6 +38,7 @@
     <link href="~/Content/SyntaxHighlighter/shCore.css" rel="stylesheet" />
     <link href="~/Content/SyntaxHighlighter/shCoreMidnight.css" rel="stylesheet" />
     <link href="~/Content/SyntaxHighlighter/shThemeMidnight.css" rel="stylesheet" />
+    <link href="~/Content/css/Footer.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/Content/css/StyleSheet.css" />
     @RenderSection("css", required: false)
 </head> 
@@ -81,6 +82,28 @@
             </div>
         </nav>
         @RenderBody()
+        <div class="site-footer">
+            <div class="footer-dark">
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 item text">
+                                <img src="http://imgur.com/4kNphNv.png">
+                            </div>
+                            <div class="col-md-3 col-sm-3 item">
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/lane-bandli-324709137/"><img class="footerlogoSizer" src="http://imgur.com/WU0QJEN.png" /></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 item">
+                                <h3>GitHub</h3>
+                                <a href="https://github.com/Laneer40/"><img class="footerlogoSizer" src="http://imgur.com/p0Vatif.png" /></a>
+                            </div>
+                        </div>
+                        <p class="copyright">Lane Bandli © @DateTime.Now.Year</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
         <div id="PlcHdlrModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">

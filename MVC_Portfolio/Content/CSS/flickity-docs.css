@@ -948,15 +948,6 @@ two columns for large devices
   display: block;
   clear: both;
 }
-
-/* site-footer
-------------------------- */
-
-.site-footer {
-  padding: 40px 0;
-  margin-top: 60px;
-}
-
 .site-footer__copy {
   font-size: 1.2rem;
 }
